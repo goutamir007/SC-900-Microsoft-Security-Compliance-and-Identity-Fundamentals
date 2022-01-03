@@ -65,7 +65,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. In the Filter services box next to where it says All services, enter **Network security groups** then from the results, select **Network security groups** (do not select Network security groups classic).
 1. From the top of Network security groups page, select **+ Create**.
 1. On the Basics tab of the Create network security group page, specify the following settings:
-    1. Subscription:  Azure Pass – Sponsorship
+    1. Subscription:  Azure HOL xxxx
 
     1. Resource group:  **LabsSC900**
     1. Name:  **NSG-SC900**
