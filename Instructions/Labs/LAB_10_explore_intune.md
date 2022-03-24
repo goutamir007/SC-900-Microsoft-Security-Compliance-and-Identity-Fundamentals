@@ -31,9 +31,7 @@ In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Not
     
     1. **Enrollment alerts** - Find more details about unassigned devices by platform.
     1. **Compliance status** - Review compliance status based on device, policy, setting, threats, and protection. Additionally, this pane provides a list of devices without a compliance policy.
-    1. **Configuration status** - Review configuration status of device profiles, as well as profile deployment., and
-    1. **Software update status** - See a visual of the deployment status for all devices and for all users.
-
+  
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/10-3.png)
 
 1. From the Devices - Overview pane, select **Conditional Access** to display details about access policies.
