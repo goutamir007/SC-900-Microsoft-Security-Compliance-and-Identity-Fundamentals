@@ -58,7 +58,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/9-2.png)
 
-1. From the top left of the page select **Manage**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  If you completed the Conditional access lab exercise you should see the policy listed or you can add the **New Policy** from the portal itself.   Return to Microsoft secure score tab on your browser to return to the improvement action page for requiring MFA for administrative roles. From the top right corner of the window, select the **X** to close this window and return the improvement actions page.
+1. From the down left of the page select **Manage in Microsoft Azure**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  If you completed the Conditional access lab exercise you should see the policy listed or you can add the **New Policy** from the portal itself.   Return to Microsoft secure score tab on your browser to return to the improvement action page for requiring MFA for administrative roles. From the top right corner of the window, select the **X** to close this window and return the improvement actions page.
 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/9-3.png)
 
