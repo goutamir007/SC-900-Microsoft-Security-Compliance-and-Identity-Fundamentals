@@ -39,24 +39,16 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
 1. Return to Microsoft Defender for Cloud blade. Notice the information available on the Security center overview page.  
 
     ![alt text](https://raw.githubusercontent.com/Azure/Azure-Security-Center/main/Labs/Images/asc-dashboard-overview.gif)
+    
+    1. Notice the information available on the Microsoft Defender for Cloud overview page.  
+
+1. You may see a blue information box on the top of the page indicating that you may be viewing limited information.  Select **click here**.
+    1. To ensure that you get tenant wide visibility, assign yourself the necessary role.  Select **Security Admin** then select **Get access** at the bottom of the page.
+    1. You will likely see the message; Root management group dos not exist.  Per the description, the system will create the group for you.  It can take up to 15 minutes to complete (but usually happens faster).  Once the access is granted select **Microsoft Defender for Cloud** on the top-left corner of the page, above where it says Get permissions and then refresh the Microsoft Defender for Cloud overview page.
 
 1. Information on the top of the page includes the number of Azure subscriptions, the number of Assessed resources, the number of active recommendations, and any security alerts.  On the main body of the page there are cards representing Secure score, Regulatory compliance, Insights, Azure Defender, and more.  
-1. From the top of the page, select **Assessed resources**.  This brings you to the inventory page that shows the resources under the subscription. Select **Resource Type - Virtual Machine**
 
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/T1%20S8.png)
-
-1. The Resource health page provides a list of recommendations.  From the available list, select **Management ports of virtual machine should be protected with just-in-time network access control**. 
-
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/T1%20S9.png)
-
-1. Select the drop-down arrow next to Remediation steps. Note how detailed remediation steps are provided along with the option to take action.  
-
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/T1%20S10.png)
-
-1. Select **Security Center** from the top-left corner of the screen to return to the Security Center overview page.
-1. From the top of the page, select **Active recommendations**.
-
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/16.png)
+1. Select **Recommendations** from the top-left corner of the screen to see the **Active recommendations** and go through them..
 
 1. The recommendations page shows specific actions that can be taken on their potential secure score increase.  Exit the recommendations page by selecting the **X** on top-right corner of the screen.
 1. From the main page, select **Regulatory compliance**.
@@ -97,21 +89,11 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
 
 #### Task 3:  Recall that Security center is offered in two modes: Azure Defender OFF (free) and Azure Defender ON. In this task you discover how to enable and disable Azure Defender.
 
-1.	From the Security center overview page, select the **Enable Azure Defender** from the Azure Defender card.
 
-2.	Select the **Azure Defender on** box.  Notice how all the defender plans change status to On and notice pricing for reach item, then select **Save** from the top-left corner of the page.
-3.	Return to the Security center page, by selecting **Security Center** from the top-left corner of the page.   It may take several minutes for the Azure Defender card to reflect the change.  Refresh the page, if necessary.
-4.	To disable Azure Defender, select **Pricing & settings** from the left navigation panel of the security center page, select the **CloudLabsai subscription**.
-
-    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/6-1.png)
-
-5.	From the Azure Defender plans page, select the **Azure Defender off** box, then select **Save** from the top-left corner of the page.
-
-    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/6-2.png)
-
-6.	A pop-up window appears requesting confirmation of the downgrade.  Uncheck the box for Microsoft to contact you and select **Confirm**.
-7.	You can now close the browser tab to exit the Azure portal.
-
+1.	From the Microsoft Defender for Cloud overview page, select the **Environment settings** from the left navigation panel.
+1. Select the greater-than **>**sign next to where is say Tenant Root Group to expand it (do not select Tenant Root Group directly as that will direct you to a different page), then select **Azure Pass - Sponsorship**
+1.	On the Defender plans page, notice how you can select Enable all or select individual Defender plans. Leave the settings as they are with all plans set to off.
+1.	You can now close the browser tab to exit the Azure portal.
 
 #### Review
 In this lab, you explored Azure Security Center and learned how Azure Secure Score can be used to improve your organization's security posture.
